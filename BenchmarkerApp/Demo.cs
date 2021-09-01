@@ -3,6 +3,8 @@ using System.Text;
 
 namespace BenchmarkerApp
 {
+    [SimpleJob(BenchmarkDotNet.Jobs.RuntimeMoniker.Net50, baseline: true)]
+    [SimpleJob(BenchmarkDotNet.Jobs.RuntimeMoniker.Net60)]
     [MemoryDiagnoser]
     public class Demo
     {

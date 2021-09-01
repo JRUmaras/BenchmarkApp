@@ -2,6 +2,7 @@
 
 using BenchmarkDotNet.Running;
 using BenchmarkerApp;
+using System;
 
 Console.WriteLine("Hello, World!");
 
